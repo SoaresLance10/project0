@@ -1,0 +1,61 @@
+body {
+	margin : 5%;
+}
+
+h1 {
+	font-family: times;
+	font-weight: bold;
+	color: orange;
+}
+
+img {
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+}
+.info {
+	padding: 2%;
+}
+
+ol > li {
+	padding: 0.5%;
+}
+
+#first {
+	font-weight: bold;
+	background-color: #ffff99;
+}
+
+#second {
+	font-weight: bold;
+	background-color: #d6d6c2;
+}
+
+#third{
+	font-weight: bold;
+	background-color: #dfbe9f;
+}
+
+      div a::before {
+        content: "Click Here for More Information about:  ";
+      }
+
+
+      .links {
+      	padding: 5%;			
+        margin-left: 20%;
+        border: solid;
+        border-color: black;
+        border-radius: 5%;
+        background-color: lightgrey;
+        width: 60%;
+      }
+
+
+      .home {
+        text-align: right;
+        border: solid;
+        border-color: darkgreen;
+        color: darkgreen;
+        margin: 50%;
+      }

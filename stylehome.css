@@ -1,0 +1,51 @@
+      img {
+        width: 19%;
+      }
+      
+      #top {
+        padding: 7%;
+      }
+
+      h1 {
+        font-family: times;        
+        color: darkblue;
+        background-color: lightblue;
+        font-weight: 25 px;
+        text-align: center;
+      }
+      h3 {
+        font-family: ariel, helvetica;
+      }
+
+      div {
+        padding: 5%;
+      }
+
+      div > h4 {
+        color: darkblue;
+      }
+
+      div > table {
+        padding-top: 5%;
+      }
+
+      .links {
+        margin-left: 20%;
+        border: solid;
+        border-color: black;
+        border-radius: 5%;
+        background-color: lightgrey;
+        width: 60%;
+      }
+
+      div a::before {
+        content: "Click Here for More Information about:  ";
+      }
+
+      .home {
+        text-align: center;
+        border: solid;
+        border-color: darkgreen;
+        color: darkgreen;
+        margin: 50%;
+      }
